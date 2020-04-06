@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diegovr17.miu_app_roomdatabase">
+
+    <application
+        android:name=".ContextNotas"
+        android:allowBackup="true"
+        android:icon="@mipmap/icono_escudo_udea_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_escudo_udea_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.NotaActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActioBar"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Activities.UsuarioActivity" />
+        <activity
+            android:name=".Activities.NotaAddActivity"
+            android:parentActivityName=".Activities.NotaActivity" />
+        <activity
+            android:name=".Activities.HorarioActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.ApunteActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activities.CursoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

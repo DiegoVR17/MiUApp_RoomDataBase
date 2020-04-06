@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiU-App</string>
+    <string name="Opción">Opción</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="MiUApp">MI U - APP</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="option">MiU-App</string>
+</resources>
